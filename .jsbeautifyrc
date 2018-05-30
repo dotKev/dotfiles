@@ -1,0 +1,9 @@
+{
+  "html": {
+    "end_with_newline": true,
+    "wrap-line-length": 100,
+    "wrap_attributes": "force",
+    "wrap-attributes-indent-size": 100,
+    "preserve-newlines": true,
+  },
+}
