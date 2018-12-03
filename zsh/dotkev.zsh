@@ -25,6 +25,8 @@ alias frontend='docker-compose exec frontend bash'
 alias fe='frontend'
 alias mysw='docker-compose exec mysidewalk bash'
 alias dev='cd ~/dev'
+alias backup-boost='sudo sysctl debug.lowpri_throttle_enabled=0'
+alias backup-throttle='sudo sysctl debug.lowpri_throttle_enabled=1'
 alias gllt='cd /Applications/MAMP/htdocs/gllt/wp-content/themes/gllt'
 alias htdocs='cd /Applications/MAMP/htdocs'
 
