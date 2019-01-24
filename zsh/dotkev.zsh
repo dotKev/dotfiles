@@ -29,8 +29,9 @@ alias backup-boost='sudo sysctl debug.lowpri_throttle_enabled=0'
 alias backup-throttle='sudo sysctl debug.lowpri_throttle_enabled=1'
 alias gllt='cd /Applications/MAMP/htdocs/gllt/wp-content/themes/gllt'
 alias htdocs='cd /Applications/MAMP/htdocs'
+alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary --remote-debugging-port=9222'
 
-_iterm2_hook() {
+_tmux_hook() {
   # This function should be used as the iterm2 command to run on terminal open
   #
   # Create a new tmux session if it doesn't exists. Otherwise, create a new grouped session and clean it up on exit.
